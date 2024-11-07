@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: blankspace # the main title
 
-tagline: 모의해킹 공부하는 등록금분쇄기 # it will display as the subtitle
+tagline: Information Security # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -98,7 +98,7 @@ theme_mode: light # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://avatars.githubusercontent.com/u/78590872?v=4
+avatar: https://github.com/user-attachments/assets/ad70ca5e-62a1-476e-87be-db41e4e76813
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
