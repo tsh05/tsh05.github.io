@@ -691,12 +691,13 @@ $btn-mb: 0.5rem;
   position: fixed;
   top: 0;
   left: 0;
+  width: 85% # 추가, 가로 사이즈 변경
   height: 100%;
   overflow-y: auto;
   width: $sidebar-width;
   z-index: 99;
   // background: var(--sidebar-bg);
-  background: rgb(255, 255, 255); # 사이드바 디자인 변경
+  background: rgba(255, 255, 255, 0.8); # 사이드바 디자인 변경
   background-size: auto;
   background-position: center;
 
@@ -728,11 +729,8 @@ $btn-mb: 0.5rem;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
     
-    /* 좌우 여백 추가 */
-    margin-left: auto;  /* 왼쪽 여백을 자동으로 설정 */
-    margin-right: auto; /* 오른쪽 여백을 자동으로 설정 */
-
     img {
+
       transition: transform 0.5s;
 
       &:hover {
